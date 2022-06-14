@@ -1,0 +1,100 @@
+body{
+  
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.WW{
+  background-color: gainsboro;
+  color: black;
+}
+.BB{
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+.line {
+  width: 50px;
+  float: left;
+  border-style: solid;
+  
+}
+.top{
+  margin-left: 100px;
+}
+
+.flex{
+  display:flex;
+  border-color: black;
+  border-width: 0px;
+  box-shadow: 2px 3px rgb(149, 149, 149);
+  border-radius: 3px;
+  border-style: outset;
+  margin: 10px 80px;
+  
+  font-size: 18px;
+ 
+}
+
+.colorW{
+  background-color: white;
+  color: black;
+}
+.colorB{
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.flex p:first-child{
+  margin-left: 20px;
+}
+
+.flex p{
+  margin: 15px auto;
+}
+.o0{
+  flex: 33%;
+}
+.o2{
+  flex: 33%;
+}
+.o3{
+  flex: 33%;
+}
+.o5{
+  flex: 33%;
+}
+.o6{
+  flex: 33%;
+}
+.o7{
+  flex: 33%;
+}
+.o8{
+  flex: 33%;
+}
+.o9{
+  flex: 33%;
+}
+.o10{
+  flex: 33%;
+}
+
+.tb{
+  margin-left: 80px;
+  font-size: 16px;
+  padding: 8px 8px;
+  border-radius: 3px;
+
+  border-width: 1px;
+  
+}
+
+.tbW{
+  background-color: gainsboro;
+  color:black;
+  border-color: black;
+}
+.tbB{
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-color: white;
+}
